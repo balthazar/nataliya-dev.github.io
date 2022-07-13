@@ -1,0 +1,49 @@
+.gridMenuParent {
+  display: grid;
+  min-height: 100vh;
+  min-width: 100vw;
+  grid-template-rows: auto auto 8em;
+  grid-template-columns: 50% 50%;
+}
+
+.about {
+  grid-column: 1;
+  grid-row: 1;
+  color: #232323;
+  background-color: azure;
+}
+
+.research {
+  grid-column: 2;
+  grid-row: 1;
+  color: azure;
+  background-color: #232323;
+}
+
+.outreach {
+  grid-column: 1;
+  grid-row: 2;
+  color: azure;
+  background-color: #232323;
+}
+
+.blog {
+  grid-column: 2;
+  grid-row: 2;
+  color: #232323;
+  background-color: azure;
+}
+
+.footer {
+  grid-column: 1/2;
+  grid-row: 3;
+  align-items: left;
+  color: azure;
+}
+
+.menuOption {
+  font-family: 'Roboto Condensed', "Gill Sans MT", Calibri, sans-serif;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
