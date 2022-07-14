@@ -1,18 +1,22 @@
 
 import React, { Component } from 'react'
-import { ReactComponent as Logo } from '../imgs/goat.svg';
+import { Link } from 'react-router-dom';
 
+import Logo from '../imgs/robot.svg';
 
 export default class Header extends Component {
   render() {
     return (
       <div className="header">
         <div className="name">
-          <h1> NATALIYA NECHYPORENKO </h1>
+          <h1> Nataliya Nechyporenko</h1>
         </div>
 
-        <div className="logo">
-          <Logo />
+        <div>
+          {/* <Logo /> */}
+          <Link to="/">
+            <img className="logo" src={Logo} alt="Logo" />
+          </Link>
         </div>
 
         <div className="links">

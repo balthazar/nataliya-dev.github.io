@@ -1,14 +1,14 @@
 
-import React, { Component } from 'react'
+import React, { Component, useCallback } from 'react'
 import { Link } from "react-router-dom";
+import { useNavigate } from 'react-router-dom';
 
 import '../css/menu.css';
-
-
 export default class Menu extends Component {
+
   render() {
     return (
-      <div className="gridMenuParent">
+      <div className="gridMenuParent" >
 
         <div className="about menuOption">
           <Link to="/about">About </Link>
@@ -34,3 +34,4 @@ export default class Menu extends Component {
     )
   }
 }
+
