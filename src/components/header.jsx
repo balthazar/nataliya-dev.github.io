@@ -8,16 +8,9 @@ export default class Header extends Component {
   render() {
     return (
       <div className="header">
-        <div className="name">
-          <h1> Nataliya Nechyporenko</h1>
-        </div>
-
-        <div>
-          {/* <Logo /> */}
-          <Link to="/">
-            <img className="logo" src={Logo} alt="Logo" />
-          </Link>
-        </div>
+        <Link to="/">
+          <name>Nataliya Nechyporenko</name>
+        </Link>
 
         <div className="links">
           <a href="https://www.linkedin.com/in/nataliya-dev/">

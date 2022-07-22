@@ -11,7 +11,7 @@ import './css/index.css';
 import Home from './pages/home';
 import About from './pages/about'
 import Research from './pages/research'
-import Outreach from './pages/outreach'
+import Involvement from './pages/involvement'
 import Blog from './pages/blog'
 
 import Header from './components/header'
@@ -27,7 +27,7 @@ root.render(
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="research" element={<Research />} />
-        <Route path="outreach" element={<Outreach />} />
+        <Route path="involvement" element={<Involvement />} />
         <Route path="blog" element={<Blog />} />
       </Routes>
 

@@ -1,38 +1,34 @@
-.gridMenuParent {
+.gridMenu {
   display: grid;
-  min-height: 100vh;
+  min-height: calc(100vh - 36px);
   min-width: 100vw;
-  grid-template-rows: auto auto 10em;
+  grid-template-rows: auto auto;
   grid-template-columns: 50% 50%;
+  overflow: hidden;
 }
 
-.about {
-  grid-column: 1;
-  grid-row: 1;
+.gridMenu>* {
   color: #232323;
   background-color: azure;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 2.5em;
+  text-transform: uppercase;
+
+  transition: color 250ms ease-in;
 }
 
-.research {
-  grid-column: 2;
-  grid-row: 1;
-  color: azure;
+.gridMenu>*:nth-child(2),
+.gridMenu>*:nth-child(3) {
   background-color: #232323;
-}
-
-.outreach {
-  grid-column: 1;
-  grid-row: 2;
   color: azure;
-  background-color: #232323;
 }
 
-.blog {
-  grid-column: 2;
-  grid-row: 2;
-  color: #232323;
-  background-color: azure;
-
+.gridMenu>*:hover {
+  color: lime;
 }
 
 .footer {
@@ -40,14 +36,4 @@
   grid-row: 3;
   align-items: left;
   color: azure;
-}
-
-.menuOption {
-  font-family: 'Fjalla One', sans-serif;
-  font-size: 2.5em;
-  text-transform: uppercase;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
