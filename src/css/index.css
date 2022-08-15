@@ -15,10 +15,9 @@
 
 body {
   font-family: 'Roboto Condensed', sans-serif;
-
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #232323;
+  background-color: #001116;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -40,36 +39,36 @@ h1 {
   text-align: center;
   font-size: 2.0em;
   text-align: justify;
-  color: azure;
-  margin: 0.1em;
+  color: #D5E4EA;
+  margin: 0.5em 0.1em 0.1em 0.1em;
 }
 
 h2 {
   text-align: center;
   font-size: 1.4em;
   text-align: justify;
-  color: azure;
-  margin: 0.1em;
+  color: #D5E4EA;
+  margin: 0.5em 0.1em 0.1em 0.1em;
 }
-
 
 h4,
 p {
   text-align: center;
   font-size: 1.2em;
   text-align: justify;
-  color: azure;
+  color: #D5E4EA;
   margin: 0.1em;
 }
 
 .citation {
   font-size: 1.1em;
-  color: azure;
-  margin: 0.5em;
+  color: #D5E4EA;
+  margin: 0.5em 0.1em 0.1em 0em;
   font-style: italic;
   text-align: left;
+  border-left: 0.3em solid #006286;
+  padding-left: 1em;
 }
-
 
 .text {
   display: flex;
@@ -77,14 +76,13 @@ p {
   justify-content: center;
   align-items: center;
   max-width: 800px;
-
 }
 
 a svg {
   width: 2em;
   height: 2em;
   stroke: currentColor;
-  fill: #232323;
+  fill: #001116;
   stroke-width: 0%;
   margin: 0.2em;
 }
@@ -98,6 +96,14 @@ a:hover {
   color: #006286;
 }
 
+p a {
+  color: #006286;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
 .header {
   display: flex;
   align-items: center;
@@ -106,9 +112,9 @@ a:hover {
   top: 0;
   left: 0;
   padding: 0 32px;
-  background: azure;
-  border-bottom: 1px solid #232323;
-  color: #232323;
+  background: #D5E4EA;
+  border-bottom: 1px solid #001116;
+  color: #001116;
   height: 36px;
   width: 100%;
   font-size: 12px;
@@ -124,31 +130,51 @@ a:hover {
   transition: fill 250ms ease-in;
 }
 
-
 blockquote {
-  margin: 1.5em 0 1.5em;
-  padding: 0 1em 0 2.5em;
-  position: relative;
+  font-size: 1.4em;
+  width: auto;
+  margin: 2.0em auto;
   font-family: 'Roboto Condensed', sans-serif;
-  color: azure
+  font-style: italic;
+  color: #D5E4EA;
+  padding: 1.2em 2.0em 1.2em 3.8em;
+  border-left: 0.3em solid #006286;
+  line-height: auto;
+  position: relative;
 }
 
-blockquote:before {
-  color: azure;
+blockquote::before {
+  font-family: 'Roboto Condensed', sans-serif;
   content: "\201C";
-  font-size: 5em;
+  color: #006286;
+  font-size: 4em;
   position: absolute;
-  left: 5px;
-  top: 0.3em;
-  line-height: 0.1em;
+  left: 0.1em;
+  top: -0.1em;
 }
 
-blockquote:after {
-  color: azure;
-  content: "\201D";
-  font-size: 5em;
-  position: absolute;
-  right: 3px;
-  bottom: 0em;
-  line-height: 0.1em;
+blockquote::after {
+  content: "";
+}
+
+blockquote span {
+  display: block;
+  color: #61686b;
+  font-style: normal;
+  margin-top: 1em;
+  font-size: 0.8em;
+}
+
+.button-parent {
+  display: flex;
+  flex-direction: row;
+  color: #D5E4EA;
+  margin: 1em;
+}
+
+.button {
+  border: solid;
+  margin: 0.5em;
+  border-width: 0.1em;
+  padding: 1.0em;
 }

@@ -2,8 +2,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
 
-import Logo from '../imgs/robot.svg';
-
 export default class Header extends Component {
   render() {
     return (
