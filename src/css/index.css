@@ -13,6 +13,21 @@
   outline: none;
 }
 
+/* body>* {
+  width: 50%;
+} */
+
+/* @media (max-width: 600px) {
+  body {
+    flex-direction: column;
+  }
+
+  body>* {
+    height: 50%;
+    width: 100%;
+  }
+} */
+
 body {
   font-family: 'Roboto Condensed', sans-serif;
   -webkit-font-smoothing: antialiased;
