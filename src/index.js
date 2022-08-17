@@ -19,9 +19,7 @@ import Header from './components/header'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
-
     <Header />
-
     <div className="content">
       <Routes>
         <Route path="/" element={<Home />} />
@@ -30,8 +28,6 @@ root.render(
         <Route path="involvement" element={<Involvement />} />
         <Route path="blog" element={<Blog />} />
       </Routes>
-
     </div>
-
   </BrowserRouter >
 );

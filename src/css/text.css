@@ -1,0 +1,42 @@
+h1 {
+  text-align: center;
+  font-size: 2.0em;
+  text-align: justify;
+  color: #D5E4EA;
+  margin: 0.5em 0.1em 0.1em 0.1em;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.4em;
+  text-align: justify;
+  color: #D5E4EA;
+  margin: 0.5em 0.1em 0.1em 0.1em;
+}
+
+h4,
+p {
+  text-align: center;
+  font-size: 1.2em;
+  text-align: justify;
+  color: #D5E4EA;
+  margin: 0.1em;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+}
+
+.citation {
+  font-size: 1.1em;
+  color: #D5E4EA;
+  margin: 0.5em 0.1em 0.1em 0em;
+  font-style: italic;
+  text-align: left;
+  border-left: 0.3em solid #006286;
+  padding-left: 1em;
+}

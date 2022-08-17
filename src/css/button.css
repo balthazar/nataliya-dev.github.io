@@ -1,0 +1,13 @@
+.button-parent {
+  display: flex;
+  flex-direction: row;
+  color: #D5E4EA;
+  margin: 1em;
+}
+
+.button {
+  border: solid;
+  margin: 0.5em;
+  border-width: 0.1em;
+  padding: 1.0em;
+}

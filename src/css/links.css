@@ -1,0 +1,30 @@
+a svg {
+  width: 2em;
+  height: 2em;
+  stroke: currentColor;
+  fill: #001116;
+  stroke-width: 0%;
+  margin: 0.2em;
+}
+
+a {
+  transition: color 150ms ease-in;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #006286;
+}
+
+p a {
+  color: #006286;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+.links>*:hover svg {
+  fill: #006286;
+  transition: fill 250ms ease-in;
+}

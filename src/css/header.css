@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 0 32px;
+  background: #D5E4EA;
+  border-bottom: 1px solid #001116;
+  color: #001116;
+  height: 36px;
+  width: 100%;
+  font-size: calc(0.4em + 0.5vmin);
+}
+
+.header h1 {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+name {
+  font-size: 2.0em;
+  text-align: center;
+  margin: 0.1em;
+}

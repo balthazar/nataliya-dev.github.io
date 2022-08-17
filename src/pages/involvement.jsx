@@ -1,5 +1,6 @@
 
 import React, { Component } from 'react'
+import '../css/button.css';
 
 export default class Involvement extends Component {
   render() {
@@ -27,7 +28,7 @@ export default class Involvement extends Component {
 
         <h2>Leading a Robotics Summer Camp For Middle Schoolers</h2>
         <p>
-          As researchers in the field of robotics and artificial intelligence, I like to spark curiosity and enthusiasm for science and technology in the community. To this end, I launched the Robotics Summer Camp for Middle School Students, funded by the <a href="https://www.colorado.edu/outreach/ooe/">Office for Outreach and Engagement (OOE)</a>. The camp took place in the Lafayette Public Library from June 6 to June 11 of 2022. Middle schoolers from the community attended the camp free of charge and learned about programming and robotics. They solved challenges such as having the robot avoid obstacles while navigating a maze, or having the robot exhibit a fear of heights when being picked up. Take a look at the
+          As a researcher in the field of robotics and artificial intelligence, I like to spark curiosity and enthusiasm for science and technology in the community. To this end, I launched the Robotics Summer Camp for Middle School Students, funded by the <a href="https://www.colorado.edu/outreach/ooe/">Office for Outreach and Engagement (OOE)</a>. The camp took place in the Lafayette Public Library from June 6 to June 11 of 2022. Middle schoolers from the community attended the camp free of charge and learned about programming and robotics. They solved challenges such as having the robot avoid obstacles while navigating a maze, or having the robot exhibit a fear of heights when being picked up. Take a look at the the following pages for more info:
         </p>
 
         <div className='button-parent'>
