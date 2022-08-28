@@ -13,6 +13,7 @@ import About from './pages/about'
 import Research from './pages/research'
 import Involvement from './pages/involvement'
 import Blog from './pages/blog'
+import BlogPost from './pages/post'
 
 import Header from './components/header'
 
@@ -27,6 +28,7 @@ root.render(
         <Route path="research" element={<Research />} />
         <Route path="involvement" element={<Involvement />} />
         <Route path="blog" element={<Blog />} />
+        <Route path="blog/:id" element={<BlogPost />} />
       </Routes>
     </div>
   </BrowserRouter >

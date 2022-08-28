@@ -8,8 +8,9 @@
 }
 
 .gridMenu>* {
-  color: #001116;
-  background-color: #D5E4EA;
+
+  background-color: #001116;
+  color: #D5E4EA;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -22,12 +23,12 @@
 
 .gridMenu>*:nth-child(2),
 .gridMenu>*:nth-child(3) {
-  background-color: #001116;
-  color: #D5E4EA;
+  color: #001116;
+  background-color: #D5E4EA;
 }
 
 .gridMenu>*:hover {
-  color: #006286;
+  color: #00688B;
 }
 
 @media only screen and (max-width: 640px) {

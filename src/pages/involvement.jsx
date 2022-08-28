@@ -38,7 +38,7 @@ export default class Involvement extends Component {
             </div>
           </a>
 
-          <a href="https://roboticsconference.org/">
+          <a href="/blog/1">
             <div className='button'>
               Blog Post
             </div>

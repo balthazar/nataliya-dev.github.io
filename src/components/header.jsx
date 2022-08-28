@@ -9,7 +9,7 @@ export default class Header extends Component {
     return (
       <div className="header">
         <Link to="/">
-          <name>Nataliya Nechyporenko</name>
+          <div id="name">Nataliya Nechyporenko</div>
         </Link>
 
         <div className="links">
