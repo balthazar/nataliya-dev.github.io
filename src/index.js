@@ -1,23 +1,19 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import {
-  BrowserRouter,
-  Routes,
-  Route,
-} from "react-router-dom";
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
-import './css/index.css';
-
-import Home from './pages/home';
+import Home from './pages/home'
 import About from './pages/about'
 import Research from './pages/research'
 import Involvement from './pages/involvement'
 import Blog from './pages/blog'
 import BlogPost from './pages/post'
-
 import Header from './components/header'
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import './css/index.css'
+
+const root = ReactDOM.createRoot(document.getElementById('root'))
+
 root.render(
   <BrowserRouter>
     <Header />
@@ -31,5 +27,5 @@ root.render(
         <Route path="blog/:id" element={<BlogPost />} />
       </Routes>
     </div>
-  </BrowserRouter >
-);
+  </BrowserRouter>,
+)

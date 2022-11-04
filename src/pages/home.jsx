@@ -1,9 +1,14 @@
-import Menu from '../components/menu'
+import { Link } from 'react-router-dom'
 
-function Home() {
+import '../css/menu.css'
+
+export default function Home() {
   return (
-    <Menu />
-  );
+    <div className="gridMenu">
+      <Link to="/about">About</Link>
+      <Link to="/research">Research</Link>
+      <Link to="/involvement">Involvement</Link>
+      <Link to="/blog">Blog</Link>
+    </div>
+  )
 }
-
-export default Home;
